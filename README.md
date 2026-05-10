@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Snake Game 🐍
 
 A snake game built using:
@@ -33,3 +34,6 @@ python app.py
 Open browser:
 
 http://127.0.0.1:5000
+=======
+# snakegame
+>>>>>>> da7b4dab0bffa10bd4b40eef042c209569812b77
