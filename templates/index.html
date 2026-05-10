@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <h1>Snake Game</h1>
+
+    <input type="text" id="playerName" placeholder="Enter your name">
+
+    <div class="score-board">
+        Score: <span id="score">0</span>
+    </div>
+
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <br>
+
+    <button onclick="startGame()">Start Game</button>
+
+    <a href="/leaderboard">
+        <button>Leaderboard</button>
+    </a>
+
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+
+</body>
+</html>
